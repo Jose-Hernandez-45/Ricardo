@@ -1,0 +1,113 @@
+body{
+    background-color: #E1DFDB;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    height: 250px;
+    background-image: url('../Image/imagen.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    margin: 0; /* Quita cualquier margen */
+    padding: 0; /* Quita cualquier padding */
+}
+
+h3{
+    padding-top: 40px;
+    padding-left: 10px; /* Añade 5px de distancia al borde */
+    color: #ffffff;
+    Font-family: "Belleza", sans-serif;
+    margin: 0;;
+}
+
+h1{
+    padding-top: 80px;
+    padding-left: 10px; /* Añade 5px de distancia al borde */
+    color: #ffffff;
+    Font-family: "Belleza", sans-serif;
+    margin: 0;;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+h2{
+    color: #203051;
+    font-family: "Belleza", sans-serif;
+    font-size: larger;
+}
+
+p{
+    color: #203051;
+    text-align: justify;
+    font-family: "Lora", serif;
+    font-size: medium;
+}
+
+.imagen-regular {
+    width: 450px; /* Establece el ancho a 300px */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #203051;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #ffffff;
+    color: #203051;
+  }
+  
+  .back-button:focus {
+    outline: none;
+  }
+  
+  .back-button::before {
+    content: "←";
+    margin-right: 8px;
+    font-size: 20px;
+  }
+        
+
+        
+
+    
+        
+    
